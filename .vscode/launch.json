@@ -1,0 +1,57 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-RestEmployeeApplication<Rest-Employee>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cibertec.pe.RestEmployeeApplication",
+            "projectName": "Rest-Employee",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=52588 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=Rest-Employee"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaServerApplication<Eureka-Server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cibertec.pe.EurekaServerApplication",
+            "projectName": "Eureka-Server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SaludoServiceApplication<Saludo-Service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cibertec.pe.SaludoServiceApplication",
+            "projectName": "Saludo-Service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GatewayServiceApplication<GATEWAY-Service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cibertec.pe.GatewayServiceApplication",
+            "projectName": "GATEWAY-Service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RestCuentaApplication<Rest-Cuenta>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cibertec.pe.Rest_Cuenta.RestCuentaApplication",
+            "projectName": "Rest-Cuenta",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
