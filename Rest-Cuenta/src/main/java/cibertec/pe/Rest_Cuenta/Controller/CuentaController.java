@@ -13,7 +13,7 @@ import cibertec.pe.Rest_Cuenta.Model.Cuenta;
 import cibertec.pe.Rest_Cuenta.Service.CuentaImplement;
 
 @RestController
-@RequestMapping("api/Cuenta")
+@RequestMapping("/api/Cuenta")
 public class CuentaController {
     
     @Autowired

@@ -3,7 +3,7 @@ package cibertec.pe.service;
 import java.util.List;
 import java.util.Optional;
 
-import cibertec.pe.Entity.Cuenta;
+import cibertec.pe.entity.Cuenta;
 import cibertec.pe.modelo.Employee;
 
 public interface IEmployeeService {
