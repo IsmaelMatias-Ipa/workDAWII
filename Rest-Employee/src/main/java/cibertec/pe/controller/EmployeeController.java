@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import cibertec.pe.entity.Cuenta;
+import cibertec.pe.Entity.Cuenta;
 import cibertec.pe.modelo.Employee;
 import cibertec.pe.service.EmployeeImplement;
 
 @RestController
-@RequestMapping("api/employee")
+@RequestMapping("/api/employee")
 public class EmployeeController {
 
 	@Autowired

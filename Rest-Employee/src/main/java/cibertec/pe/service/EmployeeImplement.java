@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import cibertec.pe.entity.Cuenta;
-import cibertec.pe.feignclient.ICuentaFeignClient;
+import cibertec.pe.Entity.Cuenta;
+import cibertec.pe.feignclient.ICuentaFeignclient;
 import cibertec.pe.modelo.Employee;
 import cibertec.pe.repository.IEmployeeRepository;
 
@@ -18,7 +18,7 @@ public class EmployeeImplement implements IEmployeeService {
 	private IEmployeeRepository emplRepo;
 	
 	@Autowired
-	private ICuentaFeignClient cuentaFeign;
+	private ICuentaFeignclient cuentaFeign;
 	
 	@Override
 	public List<Employee> getEmployees() {

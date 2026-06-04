@@ -1,4 +1,4 @@
-package cibertec.pe.entity;
+package cibertec.pe.Entity;
 
 public class Cuenta {
 	private String banco;
